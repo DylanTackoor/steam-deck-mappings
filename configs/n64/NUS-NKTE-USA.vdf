@@ -1,12 +1,12 @@
 "controller_mappings"
 {
 	"version"				"3"
-	"revision"				"12"
-	"title"					"Kirby Air Ride"
-	"description"			"Trackpad based motion controls"
+	"revision"				"8"
+	"title"					"Mario Kart 64"
+	"description"			"Your modified layout for this game."
 	"creator"				"76561198063618645"
 	"progenitor"			""
-	"url"					"default://kirby air ride"
+	"url"					"default://mario kart 64"
 	"export_type"			"personal_cloud"
 	"controller_type"		"controller_neptune"
 	"major_revision"		"0"
@@ -540,7 +540,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button A"
+							"binding"		"xinput_button START"
 						}
 					}
 				}
@@ -548,9 +548,6 @@
 				{
 				}
 			}
-		}
-		"gameactions"
-		{
 		}
 	}
 	"group"
@@ -568,7 +565,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button SELECT"
+							"binding"		"xinput_button TRIGGER_LEFT"
 						}
 					}
 				}
@@ -576,6 +573,29 @@
 				{
 				}
 			}
+			"touch"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button A"
+						}
+						"settings"
+						{
+							"haptic_intensity"		"0"
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+		}
+		"gameactions"
+		{
 		}
 	}
 	"group"
@@ -593,7 +613,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button A"
+							"binding"		"xinput_button JOYSTICK_RIGHT"
 						}
 					}
 				}
@@ -601,18 +621,6 @@
 				{
 				}
 			}
-			"touch"
-			{
-				"activators"
-				{
-				}
-				"disabled_activators"
-				{
-				}
-			}
-		}
-		"gameactions"
-		{
 		}
 	}
 	"group"
@@ -690,13 +698,6 @@
 			{
 				"activators"
 				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"xinput_button X"
-						}
-					}
 				}
 				"disabled_activators"
 				{
@@ -706,13 +707,6 @@
 			{
 				"activators"
 				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"xinput_button A"
-						}
-					}
 				}
 				"disabled_activators"
 				{
@@ -722,13 +716,6 @@
 			{
 				"activators"
 				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"xinput_button Y"
-						}
-					}
 				}
 				"disabled_activators"
 				{
@@ -738,13 +725,6 @@
 			{
 				"activators"
 				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"xinput_button B"
-						}
-					}
 				}
 				"disabled_activators"
 				{
@@ -782,6 +762,10 @@
 		"inputs"
 		{
 		}
+		"settings"
+		{
+			"gyro_button"		"2"
+		}
 		"gameactions"
 		{
 		}
@@ -797,20 +781,7 @@
 		"settings"
 		{
 			"curve_exponent"		"1"
-			"gyro_button"			"1"
 			"invert_y"				"1"
-		}
-		"gameactions"
-		{
-		}
-	}
-	"group"
-	{
-		"id"				"16"
-		"mode"				"four_buttons"
-		"description"		""
-		"inputs"
-		{
 		}
 		"gameactions"
 		{
@@ -824,13 +795,12 @@
 		{
 			"7"			"switch active"
 			"0"			"button_diamond active"
-			"1"			"left_trackpad active"
-			"11"		"left_trackpad inactive"
+			"1"			"left_trackpad inactive"
+			"11"		"left_trackpad active"
 			"2"			"right_trackpad inactive"
 			"6"			"right_trackpad inactive"
-			"10"		"right_trackpad active"
-			"12"		"right_trackpad inactive"
-			"16"		"right_trackpad inactive"
+			"10"		"right_trackpad inactive"
+			"12"		"right_trackpad active"
 			"3"			"joystick active"
 			"4"			"left_trigger active"
 			"5"			"right_trigger active"

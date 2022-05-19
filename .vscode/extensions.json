@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+		"foxundermoon.shell-format",
+		"pfwobcke.vscode-vdf",
+		"DavidAnson.vscode-markdownlint"
+	]
+}
